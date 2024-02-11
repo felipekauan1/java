@@ -2,21 +2,20 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
-package aula04;
+package aula13;
 
 /**
  *
  * @author Felipe
  */
-public class Aula04 {
+public class Aula13 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
-        Caneta c1 = new Caneta("BIC", 0.3f, "Vermelho");       
-        c1.status();
+        Cachorro c = new Cachorro();
+        c.reagir(17, 4.5f);
     }
     
 }
