@@ -15,10 +15,10 @@ public class Aula11 {
      */
     public static void main(String[] args) {
         
-        Visitante v1 = new Visitante("Felipe",18,"M");
+        Aluno a1 = new Aluno("Felipe",18,"M");
        /* Bolsista b1 = new Bosista("Felipe",18,"M");
         Tecnico b1 = new Tecnico("João",28,"M");*/
-        System.out.println(v1.toString());
+        System.out.println(a1.toString());
        
     }
     
